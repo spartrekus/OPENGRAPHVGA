@@ -12,7 +12,8 @@ void remplissage_ecran(void)
   px = 0 ; py = 0; 
   for ( couleur = 0; couleur< 200; couleur++)
   {
-    h_line( px, py, 320, couleur );
+    vga_color( couleur );
+    vga_h_line( px, py, 320 );
     py++;
   }
 }
@@ -21,9 +22,9 @@ void remplissage_ecran(void)
 int main(void)
 {
    init_vga(); // init screen vga
-   cls_screen( 0 );
+   vga_cls_screen( 0 );
    remplissage_ecran();
-   vgetch();
+   vga_getch();
    close_vga(); // close clean
    return 0;
 }

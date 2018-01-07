@@ -14,7 +14,7 @@ void demo_put_pixel(void)
   couleur = 10;
   for ( n = 0; n< 100; n++)
   {
-     put_pixel( px, py, couleur );
+     vga_put_pixel( px, py );
      px++; py++;
      couleur++;
   }
@@ -24,9 +24,9 @@ void demo_put_pixel(void)
 int main(void)
 {
    init_vga(); // init screen vga
-   cls_screen( 0 );
+   vga_cls_screen( 0 );
    demo_put_pixel();
-   vgetch();
+   vga_getch();
    close_vga(); // close clean
    return 0;
 }

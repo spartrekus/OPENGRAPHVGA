@@ -11,11 +11,12 @@ void demo_rectangles(void)
   int couleur;
   int n; 
   px = 3 ; py = 10; 
-  cls_screen( 10 );
+  vga_cls_screen( 10 );
 
   for ( couleur = 1; n< 29 ; couleur++)
   {
-     rectangle( px, py, 40, 40, couleur );
+     vga_color( couleur );
+     vga_rectangle( px, py, 40, 40 );
      px+=10; py+=5;
   }
 }
@@ -25,7 +26,7 @@ int main(void)
 {
    init_vga(); // init screen vga
    demo_rectangles();
-   vgetch();
+   vga_getch();
    close_vga(); // close clean
    return 0;
 }

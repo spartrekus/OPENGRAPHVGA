@@ -13,20 +13,21 @@ void remplissage_ecran(void)
   px = 3 ; py = 10; 
   for ( couleur = 1; n< 29 ; couleur++)
   {
-     rectangle( px, py, 40, 40, couleur );
+     vga_color( couleur );
+     vga_rectangle( px, py, 40, 40 );
      px+=10; py+=5;
   }
 }
 
 void demo_move_image(void)
 {
-   cls_screen( 3 ); 
+   vga_cls_screen( 3 ); 
    remplissage_ecran();
-   vgetch();
+   vga_getch();
 
    // y1 x1 y2 x2 ==> y3 x3
-   copy_image( 10, 10, 100, 70, 150, 50 );
-   getch();
+   vga_copy_image( 10, 10, 100, 70, 150, 50 );
+   vga_getch();
 }
 
 

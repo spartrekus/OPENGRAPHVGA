@@ -26,6 +26,8 @@ int main(void)
    vga_char( 'L' );
    vga_char( 'O' );
 
+   vga_put_text( rows-30, 0, "This is the status line without gotoxy." );
+
    vga_getch();
 
    close_vga(); // close clean

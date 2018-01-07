@@ -25,7 +25,7 @@ void demo_move_image(void)
 {
    cls_screen( 3 ); 
    remplissage_ecran();
-   getch();
+   vgetch();
 
    // y1 x1 y2 x2 ==> y3 x3
    copy_image( 10, 10, 100, 70, 150, 50 );

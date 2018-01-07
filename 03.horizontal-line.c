@@ -24,7 +24,7 @@ int main(void)
    init_vga(); // init screen vga
    cls_screen( 0 );
    remplissage_ecran();
-   getch();
+   vgetch();
    fermeture_vga(); // close clean
    return 0;
 }

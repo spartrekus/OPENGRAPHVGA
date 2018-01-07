@@ -28,7 +28,7 @@ int main(void)
 {
    init_vga(); // init screen vga
    demo_rectangles();
-   getch();
+   vgetch();
    fermeture_vga(); // close clean
    return 0;
 }

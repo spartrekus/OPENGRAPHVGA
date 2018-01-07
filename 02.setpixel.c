@@ -1,8 +1,5 @@
 
 
-
-// fill screen with a color
-
 #include <stdio.h>
 #include <stdlib.h>
 

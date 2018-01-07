@@ -1,5 +1,7 @@
 # OPENGRAPHVGA
 
 
-Low-Level graphics: OPENGRAPHVGA library, Cross-platform for BSD, Linux, Win,...
+
+Low-Level graphics: OPENGRAPHVGA library, Cross-platform for DOS, BSD, Linux, Win,...
+
 

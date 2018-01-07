@@ -27,7 +27,7 @@ int main(void)
    cls_screen( 0 );
    demo_put_pixel();
    vgetch();
-   fermeture_vga(); // close clean
+   close_vga(); // close clean
    return 0;
 }
 

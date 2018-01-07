@@ -14,7 +14,7 @@ int main(void)
    vgetch();    // wait key
    cls_screen( 3 ); // fill screen with color #3
    vgetch();    // wait key
-   fermeture_vga(); // close clean
+   close_vga(); // close clean
    return 0;
 }
 

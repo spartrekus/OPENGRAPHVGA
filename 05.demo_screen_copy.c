@@ -37,7 +37,7 @@ int main(void)
 {
    init_vga(); // init screen vga
    demo_move_image();
-   fermeture_vga(); // close clean
+   close_vga(); // close clean
    return 0;
 }
 

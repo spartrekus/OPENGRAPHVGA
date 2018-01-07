@@ -29,7 +29,7 @@ int main(void)
    init_vga(); // init screen vga
    demo_rectangles();
    vgetch();
-   fermeture_vga(); // close clean
+   close_vga(); // close clean
    return 0;
 }
 

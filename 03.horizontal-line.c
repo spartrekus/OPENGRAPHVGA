@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "opengraphvga.c" 
+#include "graphvga.c" 
 
 void remplissage_ecran(void)
 {

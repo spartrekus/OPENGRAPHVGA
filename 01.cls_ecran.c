@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "graphvga.c" 
+#include "opengraphvga.c" 
 
 
 int main(void)

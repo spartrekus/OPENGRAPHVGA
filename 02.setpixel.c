@@ -1,9 +1,12 @@
 
 
+
+// fill screen with a color
+
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "graphvga.c" 
+#include "opengraphvga.c" 
 
 void demo_put_pixel(void)
 {

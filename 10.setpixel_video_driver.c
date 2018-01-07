@@ -23,7 +23,7 @@ void demo_put_pixel(void)
 
 int main(void)
 {
-   def_vga();  // init screen size
+   def_vga( 200, 320 );  // init screen size
    def_vga_video_driver( "sdl" );  // option: init the display driver for BSD "sdl" 
    init_vga(); // init screen vga
 

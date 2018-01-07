@@ -23,7 +23,7 @@ void remplissage_ecran(void)
 
 void demo_move_image(void)
 {
-   cls_ecran( 3 ); 
+   cls_screen( 3 ); 
    remplissage_ecran();
    getch();
 

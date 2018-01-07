@@ -1,8 +1,5 @@
 
 
-
-// fill screen with a color
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,6 +24,7 @@ void demo_put_pixel(void)
 int main(void)
 {
    init_vga(); // init screen vga
+   cls_screen( 0 );
    demo_put_pixel();
    getch();
    fermeture_vga(); // close clean

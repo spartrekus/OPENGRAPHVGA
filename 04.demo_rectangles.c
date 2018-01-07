@@ -14,7 +14,7 @@ void demo_rectangles(void)
   int couleur;
   int n; 
   px = 3 ; py = 10; 
-  cls_ecran( 10 );
+  cls_screen( 10 );
 
   for ( couleur = 1; n< 29 ; couleur++)
   {

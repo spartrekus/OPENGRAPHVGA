@@ -1,2 +1,5 @@
 # OPENGRAPHVGA
-The OPENGRAPHVGA library, Cross-platform low-end graphic library 
+
+
+Low-Level graphics: OPENGRAPHVGA library, Cross-platform for BSD, Linux, Win,...
+

@@ -15,10 +15,7 @@ int main(void)
    cols = getmax_vga_cols();
 
    cls_screen( 3 ); 
-   load_font( "DejaVuSans.ttf" );
-   int px = 50; int py = 40; int tx = 100; int ty = 100; 
-   printf( " Your VGA display is: %d %d \n", rows, cols ); // info on terminal 
-   put_text( py, px, ty, tx , "OK" , 7 ); // text on VGA screen
+   put_image_bmp( 0, 0, "freemickey.bmp" ); // place image at y=0 x=0 
 
    vgetch();
 

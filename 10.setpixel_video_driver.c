@@ -3,7 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "opengraphvga.c" 
+//#include "opengraphvga.c" 
+#include "opengraphvga-sdl.c" 
 
 void demo_put_pixel(void)
 {
